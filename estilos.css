@@ -16,7 +16,7 @@ h1{
 }
 
 p{
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.3rem;
 }
 
 .container{
@@ -31,7 +31,7 @@ p{
 .header{
     background: #456268;
     color: white;
-    padding: 2rem 0;/*agregando relleno*/
+    padding: 1rem 0;/*agregando relleno*/
 
     position: fixed;
     left: 0;
@@ -54,10 +54,10 @@ p{
 }
 
 .logo{
-    letter-spacing: 15px;/*Ampliar el espacio entre las letras del logo*/
+    letter-spacing: 30px;/*Ampliar el espacio entre las letras del logo*/
     font-size: 2.4em;/*Cambiar tamaño de la letra*/
     font-family: 'Dancing Script',cursive;
-    padding: 2.4rem;   
+    padding: 2rem;   
 }
 
 .navigation{
@@ -76,7 +76,7 @@ p{
     }
         .navigation ul li a{
             display: block;
-            padding: 0.5 rem 0rem;
+            padding: 0.5rem 0rem;
             transition: all 0.4s linear;
             border-radius: 5px;
         }
@@ -95,6 +95,11 @@ p{
     margin-top: 6rem;
 }
 
+.redes-sociales{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 @media screen and (max-width:767px) {
     .navigation ul li{
@@ -117,7 +122,7 @@ p{
 }
 .redes-sociales .bubble i{
     color: #5f9ea0;
-    padding: 12px 0;
+    padding: 2rem;
 }
  
 .redes-sociales .bubble:hover i{
